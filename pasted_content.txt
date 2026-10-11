@@ -1,0 +1,87 @@
+Objetivo
+Crie uma landing page responsiva, de alta conversão, para a marca Florizi (joalheria em Euclides da Cunha, BA). A página deve priorizar contato por WhatsApp, visitas à loja e reservas, ao mesmo tempo em que apresenta um resumo do catálogo e informações institucionais para consolidar a marca.
+
+Identidade visual
+- Usar a **logo oficial da Florizi** (buscar em fontes oficiais da marca; confirmar com o cliente antes da publicação).
+- Extrair paleta de cores da logo e aplicar como: cor primária (botões/CTAs), cor secundária (títulos/links) e cor de destaque (hover/ícones).
+- Tipografia: fonte legível para web; variação para títulos e corpo.
+- Garantir consistência com Instagram (@useflorizi), TikTok (@useflorizi) e Facebook (Flor de Lis / Florizi).
+
+Links e contatos (incluir exatamente)
+- **Instagram:** https://www.instagram.com/useflorizi/
+- **TikTok:** https://www.tiktok.com/@useflorizi
+- **Facebook:** https://www.facebook.com/flordelis.variedades.7
+- **Google Maps / Perfil da Empresa:** instruir o usuário a pesquisar “Florizi Euclides da Cunha” no Google Maps.
+- **WhatsApp:** link clicável para WhatsApp Business (NÚMERO A CONFIRMAR).
+- **Endereço:** Avenida Ruy Barbosa, 140, Centro, Euclides da Cunha – BA
+
+Estrutura da landing page (seções e conteúdo)
+1. **Hero (acima da dobra)**
+   - Logo + slogan: **"Joias, prata 925, semijoias, relógios e presentes em Euclides da Cunha"**.
+   - Imagem hero (carrossel ou vídeo curto) com peças em destaque.
+   - **CTAs visíveis:** Botão verde “Falar no WhatsApp” (fixo), botão “Como chegar” (Maps).
+   - Texto curto de prova social: “14 mil seguidores no Instagram” (link para perfil).
+
+2. **Bloco rápido de conversão**
+   - Formulário curto (nome + mensagem) com botão “Reservar peça” que abre WhatsApp.
+   - Oferta de gatilho local: “Retire hoje na Florizi — peça reservada em 1 hora”.
+
+3. **Mini catálogo (seção de produtos)**
+   - Mostrar 6–12 produtos selecionados (imagens extraídas dos posts do Instagram/TikTok).
+   - Para cada produto: **imagem**, **título**, **breve descrição** (origem do post: Instagram/TikTok + data), **preço indicativo** (se disponível), **botão “Reservar via WhatsApp”**, **link para o post original**.
+   - Filtro rápido por categoria: Alianças; Anéis; Colares; Brincos; Pulseiras; Relógios; Bolsas; Presentes.
+   - Nota: manter créditos e link para o post original ao importar conteúdo.
+
+4. **Sobre a Florizi (resumo institucional)**
+   - Texto curto: evolução de Flor de Lis para Florizi; mais de 15 anos de atuação; serviços (prata 925, semijoias, perfuração de orelha).
+   - Diferenciais: procedência, garantia, atendimento local e personalização de presentes.
+
+5. **Prova social e avaliações**
+   - Carrossel de depoimentos curtos (texto + foto do cliente).
+   - Link para avaliações do Google e CTA “Avalie sua compra”.
+   - Destaque “Clientes Florizi” com fotos reais.
+
+6. **Informações práticas**
+   - Endereço completo + mapa integrado (Google Maps).
+   - **Horário de funcionamento** (campo editável; ex.: Seg–Sex 09:00–18:00; Sáb 09:00–13:00).
+   - Telefone/WhatsApp clicável.
+   - FAQ curto: perfuração de orelha, trocas, garantia, retirada na loja.
+
+7. **Rodapé**
+   - Logo pequena, links rápidos (Catálogo, Contato, Instagram, TikTok, Facebook), aviso de direitos autorais, política de privacidade.
+   - Link único sugerido (Taplink/Linktree) no topo para centralizar redes e catálogo.
+
+Requisitos de conversão e UX
+- Botões de ação fixos em mobile: **WhatsApp** e **Como chegar**.
+- Carregamento rápido; imagens otimizadas.
+- Formulário com envio direto para WhatsApp (pré‑mensagem preenchida: “Olá, quero reservar: [nome do produto]”).
+- Pop-up discreto de saída com oferta local (ex.: desconto de embalagem para retirada no mesmo dia).
+
+SEO e rastreamento
+- Meta title e description otimizados para: “Joalheria Florizi — Euclides da Cunha | Alianças e Prata 925”.
+- Palavras-chave: joalheria Euclides da Cunha; alianças Euclides da Cunha; prata 925 Euclides da Cunha; presentes Dia dos Namorados Euclides da Cunha.
+- Tags Open Graph e Twitter Card.
+- Implementar Google Analytics 4 e pixel/meta tag para remarketing.
+
+Integrações e administração
+- Integração com **WhatsApp Business** (catálogo, mensagens rápidas).
+- Área administrativa simples para: atualizar horários, trocar imagens do catálogo, editar descrições e confirmar número do WhatsApp.
+- Instrução para importar posts do Instagram/TikTok mantendo créditos e links.
+
+Paleta de cores sugerida (exemplo genérico — ajustar à logo)
+- **Primária:** cor do logo (botões/CTAs) — HEX a confirmar.
+- **Secundária:** tom neutro para títulos e links — ex.: #333333.
+- **Destaque:** cor para hover e ícones — ex.: #E6B800.
+- Fornecer arquivo final com hex codes após confirmação da logo.
+
+Entregáveis esperados
+- Landing page responsiva (HTML/CMS/Construtor) com seções acima.
+- Arquivo com paleta de cores (hex), tipografia sugerida e variações do logo.
+- Guia rápido (1 página) para o cliente atualizar catálogo e horários.
+- Lista de posts importados com links de origem (Instagram/TikTok).
+
+Observações finais
+- Se a logo oficial não for fornecida, buscar em fontes oficiais e confirmar com o cliente antes de publicar.
+- Confirmar número do WhatsApp e horários antes do lançamento.
+- Priorizar conversão local: destaque para “Retire hoje na Florizi” e CTA de reserva por WhatsApp.
+
