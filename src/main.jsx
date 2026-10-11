@@ -4,13 +4,13 @@ import { ArrowUpRight, Check, ChevronDown, Clock3, Camera, MapPin, Menu, Message
 import './styles.css';
 
 const imageUrls = {
-  hero: '/imagens/Florizi%20(13).jpg',
-  detail: '/imagens/Florizi%20(27).jpg',
-  ring: '/imagens/Florizi%20(21).jpg',
-  people: '/imagens/Florizi%20(26).jpg',
-  gift: '/imagens/Florizi%20(19).jpg',
-  watch: '/imagens/Florizi%20(20).jpg',
-  necklace: '/imagens/Florizi%20(16).jpg',
+  hero: '/FLORIZI/imagens/Florizi%20(13).jpg',
+  detail: '/FLORIZI/imagens/Florizi%20(27).jpg',
+  ring: '/FLORIZI/imagens/Florizi%20(21).jpg',
+  people: '/FLORIZI/imagens/Florizi%20(26).jpg',
+  gift: '/FLORIZI/imagens/Florizi%20(19).jpg',
+  watch: '/FLORIZI/imagens/Florizi%20(20).jpg',
+  necklace: '/FLORIZI/imagens/Florizi%20(16).jpg',
 };
 
 const products = [
@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a href="#inicio" className="brand" aria-label="Florizi início"><img className="logo-symbol" src="/florizi-logo.png" alt="" /><span>florizi</span></a>
+        <a href="#inicio" className="brand" aria-label="Florizi início"><img className="logo-symbol" src="/FLORIZI/florizi-logo.png" alt="" /><span>florizi</span></a>
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
           <a href="#catalogo" onClick={() => setMenuOpen(false)}>Coleção</a>
           <a href="#sobre" onClick={() => setMenuOpen(false)}>A Florizi</a>
@@ -101,7 +101,7 @@ function App() {
         <section className="faq section-pad"><div><p className="eyebrow">dúvidas frequentes</p><h2>Estamos aqui<br />para <em>ajudar.</em></h2></div><div className="faq-list">{['Vocês fazem perfuração de orelha?', 'Como funciona a garantia das peças?', 'Posso reservar e retirar na loja?', 'Quais formas de pagamento vocês aceitam?'].map((question, index) => <div className="faq-item" key={question}><button onClick={() => setFaqOpen(faqOpen === index ? -1 : index)}><span>{question}</span><ChevronDown size={18} className={faqOpen === index ? 'rotate' : ''} /></button>{faqOpen === index && <p>{index === 0 ? 'Sim. A perfuração é feita com todo cuidado e segurança por nossa equipe.' : index === 1 ? 'Todas as peças seguem com garantia e orientações de cuidado no momento da compra.' : index === 2 ? 'Sim. Você pode reservar pelo WhatsApp e retirar hoje mesmo, conforme disponibilidade.' : 'Aceitamos Pix, cartões e outras formas de pagamento na loja.'}</p>}</div>)}</div></section>
       </main>
 
-      <footer className="footer"><div className="footer-top"><a href="#inicio" className="brand footer-brand"><img className="logo-symbol" src="/florizi-logo.png" alt="" /><span>florizi</span></a><p>Joias que guardam histórias.<br />Feitas para a sua.</p><div className="footer-socials"><a href="https://www.instagram.com/useflorizi/" target="_blank" rel="noreferrer"><Camera size={18} /></a><a href="https://www.tiktok.com/@useflorizi" target="_blank" rel="noreferrer"><span className="social-letter">♪</span></a><a href="https://www.facebook.com/flordelis.variedades.7" target="_blank" rel="noreferrer"><span className="social-letter">f</span></a></div></div><div className="footer-bottom"><span>© 2025 Florizi. Todos os direitos reservados.</span><span>Feito com cuidado em Euclides da Cunha, BA</span><span className="developer-credit">Desenvolvido por Angelo Marques de Oliveira</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+      <footer className="footer"><div className="footer-top"><a href="#inicio" className="brand footer-brand"><img className="logo-symbol" src="/FLORIZI/florizi-logo.png" alt="" /><span>florizi</span></a><p>Joias que guardam histórias.<br />Feitas para a sua.</p><div className="footer-socials"><a href="https://www.instagram.com/useflorizi/" target="_blank" rel="noreferrer"><Camera size={18} /></a><a href="https://www.tiktok.com/@useflorizi" target="_blank" rel="noreferrer"><span className="social-letter">♪</span></a><a href="https://www.facebook.com/flordelis.variedades.7" target="_blank" rel="noreferrer"><span className="social-letter">f</span></a></div></div><div className="footer-bottom"><span>© 2025 Florizi. Todos os direitos reservados.</span><span>Feito com cuidado em Euclides da Cunha, BA</span><span className="developer-credit">Desenvolvido por Angelo Marques de Oliveira</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
       <div className="mobile-actions"><button onClick={() => reserve()}><MessageCircle size={17} /> WhatsApp</button><a href="https://www.google.com/maps/search/?api=1&query=Florizi+Euclides+da+Cunha" target="_blank" rel="noreferrer"><MapPin size={17} /> Como chegar</a></div>
       {selectedProduct && <div className="modal-backdrop" onClick={() => setSelectedProduct(null)}><div className="modal-card" onClick={(e) => e.stopPropagation()}><button className="modal-close" onClick={() => setSelectedProduct(null)}><X size={18} /></button><img src={selectedProduct.image} alt={selectedProduct.name} /><div><p className="eyebrow">seleção florizi</p><h3>{selectedProduct.name}</h3><p>{selectedProduct.desc}</p><button className="button button-primary" onClick={() => reserve(selectedProduct.name)}>Reservar via WhatsApp <ArrowUpRight size={16} /></button></div></div></div>}
     </div>
